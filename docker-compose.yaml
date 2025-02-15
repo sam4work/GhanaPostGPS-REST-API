@@ -28,9 +28,3 @@ services:
     volumes:
       - ./templates:/app/templates:ro
       - ./static:/app/static:ro
-    networks:
-      - app_network
-
-networks:
-  app_network:
-    driver: bridge
